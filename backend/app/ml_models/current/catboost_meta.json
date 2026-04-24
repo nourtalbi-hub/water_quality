@@ -1,0 +1,28 @@
+{
+  "lambda_boxcox": -0.08055922370093753,
+  "features": [
+    "Depth",
+    "O2",
+    "pH",
+    "salinity",
+    "Temperature",
+    "Total_Nitrogen",
+    "Total_Phosphorus",
+    "Station",
+    "Month",
+    "Year"
+  ],
+  "cat_feature_idx": [
+    7
+  ],
+  "target": "Chl-a",
+  "iterations": 200,
+  "depth": 6,
+  "learning_rate": 0.06,
+  "l2_leaf_reg": 5,
+  "loss_function": "RMSE",
+  "eval_metric": "RMSE",
+  "random_seed": 42,
+  "early_stopping_rounds": 100,
+  "verbose": 100
+}

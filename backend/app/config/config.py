@@ -12,7 +12,7 @@ class Config:
     DB_SERVER   = os.environ.get("DB_SERVER",   "localhost")
     DB_NAME     = os.environ.get("DB_NAME",     "water_quality")
     DB_USER     = os.environ.get("DB_USER",     "sa")
-    DB_PASSWORD = os.environ.get("DB_PASSWORD", "WaterQuality2026")
+    DB_PASSWORD = os.environ.get("DB_PASSWORD", "YourPassword123")
 
     SQLALCHEMY_DATABASE_URI = (
         f"mssql+pyodbc://{DB_USER}:{DB_PASSWORD}@{DB_SERVER}/{DB_NAME}"
